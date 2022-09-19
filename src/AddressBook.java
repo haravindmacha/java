@@ -15,5 +15,12 @@ public class AddressBook {
 
     public static void main(String[] args) {
         system.out.println("Address Book");
+
+        BuddyInfo buddy1 = new BuddyInfo("Alena");
+        BuddyInfo buddy2 = new BuddyInfo(" Jacob");
+
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddy1);
+        addressBook.removeBuddy(buddy1);
     }
 }
